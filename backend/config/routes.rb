@@ -3,7 +3,8 @@ Rails.application.routes.draw do
     scope module: "controllers" do
       namespace :api do
         namespace :v1 do
-          get "hello", to: "hello#index"
+          resources :addresses
+          resources :residents
         end
       end
     end

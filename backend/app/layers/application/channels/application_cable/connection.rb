@@ -1,4 +1,4 @@
-module Web
+module Application
   module Channels
     module ApplicationCable
       class Connection < ActionCable::Connection::Base

@@ -1,4 +1,4 @@
-module Web
+module Application
   module Channels
     module ApplicationCable
       class Channel < ActionCable::Channel::Base

@@ -1,19 +1,24 @@
 <template>
-  <div class="bg-red-500 p-4 rounded-lg">
-    <h1 class="text-white text-lg">Hello World!</h1>
+  <div class="h-screen flex flex-col">
+    <Navbar />
+    <main class="flex flex-1">
+      <p>Main works!</p>
+    </main>
+    <Footer />
   </div>
-  <Navbar message="Hello Vue!" />
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import Navbar from './components/Navbar.vue';
+import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
+import { defineComponent } from 'vue'
+
 export default defineComponent({
   name: 'App',
   components: {
-    Navbar
+    Navbar,
+    Footer,
   }
 });
 </script>
 
-<style></style>

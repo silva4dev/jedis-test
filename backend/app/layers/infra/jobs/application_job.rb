@@ -1,2 +1,6 @@
-class ApplicationJob < ActiveJob::Base
+module Infra
+  module Entities
+    class ApplicationJob < ActiveJob::Base
+    end
+  end
 end
