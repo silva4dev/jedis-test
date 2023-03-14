@@ -35,8 +35,6 @@ You can optimize the address registration time from the UX.
 You should minimize user navigation as much as possible. How would you do this?
 Backend:
 
-Translated with www.DeepL.com/Translator (free version)
-
 Think that these rules can be changed with a high frequency;
 We like optimization, setups and deploys are always automated (Docker?) // Done
 Needless to say, you need to test most of the files, don't you? // ALL
